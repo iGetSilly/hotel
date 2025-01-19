@@ -1,5 +1,3 @@
-function app() {
-  return console.log("dentro");
+export default function Page() {
+  return <h1>Hello, Next.js!</h1>
 }
-
-export default app;
