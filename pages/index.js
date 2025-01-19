@@ -1,5 +1,5 @@
 function app() {
-    return console.log("dentro")
+  return console.log("dentro");
 }
 
-export default app
+export default app;
