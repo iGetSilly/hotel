@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   height: 100vh;
 }
 
 .marginNav {
-  width: 60%;
+  width: 80%;
 }

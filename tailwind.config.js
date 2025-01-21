@@ -7,6 +7,15 @@ module.exports = {
     // Or if using `src` directory:
     './src/**/*.{js,ts,jsx,tsx,mdx}',],
   theme: {
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
+    },
+    plugins: [
+      require('@tailwindcss/forms'),
+    ],
     colors: {
       'blue': '#1fb6ff',
       'purple': '#7e5bef',
@@ -17,7 +26,19 @@ module.exports = {
       'gray-dark': '#273444',
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
+      'pink-100': '#fce7f3',
       'pink-200': '#fbcfe8',
+      'pink-300': '#f9a8d4',
+      'pink-400': '#f472b6',
+      'slate-800': '#1e293b',
+    },
+    spacing: {
+      '1': '8px',
+      '2': '12px',
+      '3': '16px',
+      '4': '24px',
+      '5': '32px',
+      '6': '48px',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
